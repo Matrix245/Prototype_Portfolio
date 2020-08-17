@@ -1,0 +1,26 @@
+body{
+
+}
+
+#navbar{
+  position:sticky;
+  top:0px;
+}
+
+#navbar-ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.nav-link{
+  display:inline-block;
+  text-decoration: none;
+  padding:8px;
+  color:black;
+
+}
+
+li{
+  display:inline;
+}

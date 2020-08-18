@@ -31,7 +31,7 @@
   color:rgb(204,204,204);
 }
 
-li{
+#navbar-ul li{
   display:inline;
   margin-right: 3%;
   float:right;
@@ -53,12 +53,13 @@ section {
     box-sizing:border-box;
 }
 
-footer{
+#footer{
   display:block;
   background-color: #A65C35;
   height:10%;
   width:100%;
   box-sizing: border-box;
+  background-color: #5E5E73;
 }
 
 #welcome-section{
@@ -85,10 +86,6 @@ footer{
   height:99%;
 }
 
-#contact{
-  background-color: #5E5E73;
-}
-
 #my_projects img{
   height:auto;
   width:100%;
@@ -108,7 +105,7 @@ footer{
 
 }
 
-.p1{
+.project-tile{
   background-color: rgb(37,64,89);
   margin-right: 5%;
 
@@ -116,4 +113,72 @@ footer{
 
 .p2{
   background-color: rgb(37,64,89);
+}
+
+#contact h2{
+  text-align: center;
+  color:rgb(160,160,160);
+  font-size: 2em;
+}
+
+#contact ul li{
+  display: inline;
+  list-style: none;
+  margin-right: 20%;
+  font-size: 2em;
+}
+
+#contact{
+  height:80%;
+  display:flex;
+  flex-direction: column;
+  background-color: #5E5E73;
+
+}
+
+#contact ul{
+  margin: 10% 0% 0% 20%;
+}
+
+#profile-link{
+  text-decoration:none;
+  color:black;
+}
+
+i{
+  transform:scale(1.5);
+}
+
+
+#line{
+  height: 1%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color:#FEB48F;
+}
+
+#footer{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1em;
+}
+
+@media (max-width:70em){
+  #my_projects img{
+    height:auto;
+    width:70%;
+  }
+
+  i{
+    transform:scale(1);
+  }
+
+  body{
+    font-size: 0.6em;
+  }
+
+  #contact ul{
+    margin: 10% 0% 0% 10%;
+  }
 }

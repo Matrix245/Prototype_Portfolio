@@ -79,9 +79,41 @@ footer{
 }
 
 #projects{
-  background-color: #5B9DD9;
+  background: linear-gradient(0deg,#5E5E73,#5B9DD9,#5B9DD9,#5B9DD9,#5B9DD9,#5B9DD9,#5E5E73);
+  color:rgba(200,200,200);
+  text-align: center;
+  height:99%;
 }
 
 #contact{
   background-color: #5E5E73;
+}
+
+#my_projects img{
+  height:auto;
+  width:100%;
+}
+
+#my_projects{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top:5%;
+
+}
+
+#my_projects a{
+  text-decoration:none;
+  color:rgb(180,180,180);
+
+}
+
+.p1{
+  background-color: rgb(37,64,89);
+  margin-right: 5%;
+
+}
+
+.p2{
+  background-color: rgb(37,64,89);
 }
